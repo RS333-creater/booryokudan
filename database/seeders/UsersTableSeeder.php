@@ -22,6 +22,12 @@ class UsersTableSeeder extends Seeder
                 'passport' => '987654321',
                 'birth_day' => '1985-05-15',
             ],
+            [
+                'email' => 'test3@example.com',
+                'password' => bcrypt('password3'),
+                'passport' => '987654312',
+                'birth_day' => '1985-05-14',
+            ],
         ]);
     }
 }

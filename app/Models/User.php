@@ -1,17 +1,29 @@
 <?php
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
-class User extends Model
+class User extends Authenticatable
 {
-    use HasFactory;
+    use Notifiable;
 
-    protected $primaryKey = 'user_id';
+    protected $primaryKey = 'user_id'; // 主キーをuser_idに変更
 
-    public function trips()
+    protected $fillable = [
+        'email',
+        'password',
+        'passport',
+        'birth_day',
+        'tel',
+    ];
+
+    protected $hidden = [
+        'password'
+    ];
+
+    public function getAuthIdentifierName()
     {
-        return $this->hasMany(Trip::class, 'user_id');
+        return 'email'; // 認証に使用するフィールドを指定
     }
 }

@@ -13,4 +13,9 @@ class TestController extends Controller
     $Test = DB::table('users')->get()->toArray();
     return view("index")->with("Test", $Test);
 }
+public function getTestPage()
+{
+    return view('test'); // 'test.blade.php' を表示
+}
+
 }

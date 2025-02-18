@@ -7,16 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 class Trip extends Model
 {
     use HasFactory;
+    protected $table = 'trip';
 
-    protected $primaryKey = 'trip_id';
+    protected $fillable = [
+        'start_point', 'end_point', 'state', 'user_id'
+    ];
 
-    public function user()
+    // planningとのリレーション
+    public function plannings()
     {
-        return $this->belongsTo(User::class, 'user_id');
-    }
-
-    public function planning()
-    {
-        return $this->hasMany(Planning::class, 'trip_id');
+        return $this->hasMany(Planning::class, 'trip_id', 'trip_id');
     }
 }

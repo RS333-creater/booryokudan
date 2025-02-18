@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id('planning_id'); // 主キー
             // $table->unsignedBigInteger('facility_id'); // 外部キー
             $table->unsignedBigInteger('trip_id'); // 外部キー
-            $table->integer('sequence')->nullable();
+            $table->text('sequence')->nullable();
             $table->timestamps();
 
             // $table->foreign('facility_id')->references('id')->on('facilities')->onDelete('cascade');

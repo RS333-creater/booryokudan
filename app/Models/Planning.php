@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Planning extends Model
 {
     use HasFactory;
+    protected $table = 'planning';
+
+    protected $fillable = [
+        'trip_id', 'sequence'
+    ];
+
+    // tripとのリレーション
+    public function trip()
+    {
+        return $this->belongsTo(Trip::class, 'trip_id', 'trip_id');
+    }
 }
