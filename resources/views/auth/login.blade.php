@@ -12,7 +12,7 @@
     <header>
         <div class="nav-container">
             <div class="logo">
-                <h1>BonVoyage</h1>
+                <img src="/css/img/logo 1.png" alt="">
             </div>
             <nav>
                 <ul>

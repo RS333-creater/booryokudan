@@ -13,7 +13,7 @@
     <header>
         <div class="nav-container">
             <div class="logo">
-            <a href="/"><h1>BonVoyage</h1></a>
+            <a href="/"><img src="/css/img/logo 1.png" alt=""></a>
             </div>
             <nav>
                 <ul>
@@ -26,11 +26,11 @@
             </nav>
             <div class="btnarea">
                 <button class="nav-btn">
-                    <img src="https://via.placeholder.com/20" alt="SAVED"></button>
+                    <img src="/css/img/flight-svgrepo-com.svg" alt="SAVED"></button>
                 <button class="nav-btn">
-                    <img src="https://via.placeholder.com/20" alt="SETTINGS"></button>
+                    <img src="/css/img/setting-1-svgrepo-com.svg" alt="SETTINGS"></button>
                 <div class="user-profile">
-                    <img src="https://via.placeholder.com/60" alt="User01">
+                    <img src="/css/img/friend-svgrepo-com.svg" alt="User01">
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
             <h2>Spending</h2>
             <div class="spending-item">
                 <div class="spending-icon">
-                    <img src="https://via.placeholder.com/24" alt="Hotel Icon">
+                    <img src="/css/img/jyujyuDSC00739_TP_V4.jpg" alt="Hotel Icon">
                 </div>
                 <label>Hotel</label>
                 <div class="progress-bar">
@@ -133,7 +133,7 @@
             </div>
             <div class="spending-item">
                 <div class="spending-icon">
-                    <img src="https://via.placeholder.com/24" alt="Food Icon">
+                    <img src="/css/img/img_2.jpg.webp" alt="Food Icon">
                 </div>
                 <label>Food</label>
                 <div class="progress-bar">
@@ -143,7 +143,7 @@
             </div>
             <div class="spending-item">
                 <div class="spending-icon">
-                    <img src="https://via.placeholder.com/24" alt="Flight Tickets Icon">
+                    <img src="/css/img/IMG_1325.png" alt="Flight Tickets Icon">
                 </div>
                 <label>Tickets</label>
                 <div class="progress-bar">
@@ -153,7 +153,7 @@
             </div>
             <div class="spending-item">
                 <div class="spending-icon">
-                    <img src="https://via.placeholder.com/24" alt="Activities Icon">
+                    <img src="/css/img/henry-be-MdJq0zFUwrw-unsplash.png" alt="Activities Icon">
                 </div>
                 <label>Activities</label>
                 <div class="progress-bar">
@@ -163,7 +163,7 @@
             </div>
             <div class="spending-item spending-total">
                 <div class="spending-icon">
-                    <img src="https://via.placeholder.com/24" alt="Budget Icon">
+                    <img src="/css/img/0c17a417-6350-4b79-9084-5eddecb8b951.png" alt="Budget Icon">
                 </div>
                 <label>Budget</label>
                 <div class="progress-bar">
@@ -223,7 +223,7 @@
             <div class="favorite-list">
                 <div class="favorite-item">
                     <div class="favorite-icon">
-                        <img src="https://via.placeholder.com/50" alt="Tokyo Icon">
+                        <img src="/css/img/luxembourg-investment-seminar-in-tokyo-2023-2.png" alt="Tokyo Icon">
                     </div>
                     <div class="favorite-details">
                         <p><strong>Tokyo</strong></p>
@@ -232,7 +232,7 @@
                 </div>
                 <div class="favorite-item">
                     <div class="favorite-icon">
-                        <img src="https://via.placeholder.com/50" alt="Paris Icon">
+                        <img src="/css/img/753564-visuel-paris-tour-eiffel-rue.jpg" alt="Paris Icon">
                     </div>
                     <div class="favorite-details">
                         <p><strong>Paris</strong></p>
@@ -242,7 +242,7 @@
                 <!-- <h4>Hot Destinations</h4> -->
                 <div class="favorite-item">
                     <div class="favorite-icon">
-                        <img src="https://via.placeholder.com/50" alt="Bangkok Icon">
+                        <img src="/css/img/Unknown.jpeg" alt="Bangkok Icon">
                     </div>
                     <div class="favorite-details">
                         <p><strong>Bangkok</strong></p>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="favorite-item">
                     <div class="favorite-icon">
-                        <img src="https://via.placeholder.com/50" alt="Taipei Icon">
+                        <img src="/css/img/img_1.jpg-3.webp" alt="Taipei Icon">
                     </div>
                     <div class="favorite-details">
                         <p><strong>Taipei</strong></p>

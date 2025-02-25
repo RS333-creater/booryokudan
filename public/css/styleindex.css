@@ -28,9 +28,8 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo h1 {
-    font-size: 24px;
-    color: #444;
+.logo img {
+    width: 200px;
 }
 
 nav ul {
@@ -119,6 +118,10 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.search-btn img {
+    width: 20px;
 }
 
 .search-section {

@@ -11,8 +11,7 @@
         <header>
             <div class="nav-container">
                 <div class="logo">
-                    <a href="/"><h1>BonVoyage</h1></a>
-
+                    <a href="/"><img src="/css/img/logo 1.png" alt=""></a>
                 </div>
                 <nav>
                     <ul>
@@ -31,7 +30,7 @@
                 </div>
             </div>
             <div class="hero-section">
-                <img src="https://via.placeholder.com/1200x500" alt="Hero Image" class="hero-img">
+                <img src="/css/img/view-Ireland-coastline.jpg.webp" alt="Hero Image" class="hero-img">
                 <div class="hero-text">
                     <h1>BonVoyage</h1>
                     <button class="see-more-btn">See More</button>
@@ -52,7 +51,7 @@
                         <option>Cityscape</option>
                     </select>
                     <button class="search-btn" type="submit">
-                        <img src="https://via.placeholder.com/20" alt="Search">
+                        <img src="/css/img/search-button-svgrepo-com.svg" alt="Search">
                         Search
                     </button>
                 </div>
@@ -67,70 +66,67 @@
                 <div class="cards-wrapper">
                     <div class="cards-container">
                         <div class="card">
-                            <img src="https://via.placeholder.com/200x200" alt="Tokyo">
+                            <img src="/css/img/tokyo-tower-night-landmark.jpg" alt="Tokyo">
                             <div class="card-content">
                                 <h3>Tokyo</h3>
-                                <p><span>Japan</span> | Score</p>
+                                <p><span>Japan</span> | 4.9</p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/200x200" alt="Paris">
+                            <img src="/css/img/753564-visuel-paris-tour-eiffel-rue.jpg" alt="Paris">
                             <div class="card-content">
                                 <h3>Paris</h3>
-                                <p><span>France</span> | Score</p>
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <img src="https://via.placeholder.com/200x200" alt="Beijing">
-                            <div class="card-content">
-                                <h3>Beijing</h3>
-                                <p><span>China</span> | Score</p>
+                                <p><span>France</span> | 4.5</p>
                             </div>
                         </div>
 
                         <div class="card">
-                            <img src="https://via.placeholder.com/200x200" alt="Beijing">
+                            <img src="/css/img/england.jpeg" alt="Beijing">
                             <div class="card-content">
-                                <h3>Beijing</h3>
-                                <p><span>China</span> | Score</p>
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <img src="https://via.placeholder.com/200x200" alt="Beijing">
-                            <div class="card-content">
-                                <h3>Beijing</h3>
-                                <p><span>China</span> | Score</p>
+                                <h3>London</h3>
+                                <p><span>England</span> | 4.9</p>
                             </div>
                         </div>
 
                         <div class="card hidden-content">
-                            <img src="https://via.placeholder.com/200x200" alt="Hidden Destination">
+                            <img src="/css/img/australia02.jpg" alt="Hidden Destination">
+                            <div class="card-content">
+                                <h3>Sidney</h3>
+                                <p><span>Australia</span> | 4.0</p>
+                            </div>
+                        </div>
+
+                        <div class="card hidden-content">
+                            <img src="/css/img/canada.jpeg" alt="Hidden Destination">
+                            <div class="card-content">
+                                <h3>Canada</h3>
+                                <p><span>Canada</span> | 4.2</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="/css/img/Great-Wall-New-Pic-228551391689622.jpg" alt="Beijing">
+                            <div class="card-content">
+                                <h3>China</h3>
+                                <p><span>China</span> | 4.5</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="/css/img/newyork_NationalGeographic.jpeg" alt="Beijing">
+                            <div class="card-content">
+                                <h3>Newyork</h3>
+                                <p><span>America</span> | 4.1</p>
+                            </div>
+                        </div>
+
+                        <div class="card hidden-content">
+                            <img src="/css/img/Unknown.jpeg" alt="Hidden Destination">
                             <div class="card-content">
                                 <h3>HiddenDes</h3>
                                 <p><span>HiddenLoc</span> | HiddenS</p>
                             </div>
                         </div>
-
-                        <div class="card hidden-content">
-                            <img src="https://via.placeholder.com/200x200" alt="Hidden Destination">
-                            <div class="card-content">
-                                <h3>HiddenDes</h3>
-                                <p><span>HiddenLoc</span> | HiddenS</p>
-                            </div>
-                        </div>
-
-                        <div class="card hidden-content">
-                            <img src="https://via.placeholder.com/200x200" alt="Hidden Destination">
-                            <div class="card-content">
-                                <h3>HiddenDes</h3>
-                                <p><span>HiddenLoc</span> | HiddenSc</p>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
