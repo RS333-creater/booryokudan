@@ -123,7 +123,7 @@
             <h2>Spending</h2>
             <div class="spending-item">
                 <div class="spending-icon">
-                    <img src="/css/img/jyujyuDSC00739_TP_V4.jpg" alt="Hotel Icon">
+                    <img src="/css/img/hotel.png" alt="Hotel Icon">
                 </div>
                 <label>Hotel</label>
                 <div class="progress-bar">

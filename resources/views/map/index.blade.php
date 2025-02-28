@@ -16,11 +16,11 @@
     <header>
         <div class="nav-container">
             <div class="logo">
-                <a href="/"><h1>BonVoyage</h1></a>
+                <a href="/"><img src="/css/img/logo 1.png" alt=""></a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Location</a></li>
+                    <li><a href="{{ route('location') }}">Location</a></li>
                     <li><a href="#">Discover</a></li>
                     <li><a href="#">Bookings</a></li>
                     <li><a href="#">Activities</a></li>
@@ -45,23 +45,23 @@
             <div class="travel-destinations">
                 <!-- 元のカード内容を維持 -->
                 <div class="destination-card" data-lat="46.8182" data-lng="8.2275">
-                    <img src="https://via.placeholder.com/80x100" alt="Switzerland">
+                    <img src="/css/img/swis.jpg" alt="Switzerland">
                     <p>Switzerland <span class="rating">4.8</span></p>
                 </div>
                 <div class="destination-card" data-lat="-25.2744" data-lng="133.7751">
-                    <img src="https://via.placeholder.com/80x100" alt="Australia">
+                    <img src="/css//img/australia01.jpg" alt="Australia">
                     <p>Australia <span class="rating">4.6</span></p>
                 </div>
                 <div class="destination-card" data-lat="53.4129" data-lng="-8.2439">
-                    <img src="https://via.placeholder.com/80x100" alt="Ireland">
+                    <img src="/css/img/Ireland.jpg" alt="Ireland">
                     <p>Ireland <span class="rating">4.5</span></p>
                 </div>
                 <div class="destination-card" data-lat="56.1304" data-lng="-106.3468">
-                    <img src="https://via.placeholder.com/80x100" alt="Canada">
+                    <img src="/css/img/canada.jpeg" alt="Canada">
                     <p>Canada <span class="rating">4.3</span></p>
                 </div>
                 <div class="destination-card" data-lat="51.5074" data-lng="-0.1278">
-                    <img src="https://via.placeholder.com/80x100" alt="United Kingdom">
+                    <img src="/css/img/uk.jpg" alt="United Kingdom">
                     <p>United Kingdom <span class="rating">4.2</span></p>
                 </div>
             </div>

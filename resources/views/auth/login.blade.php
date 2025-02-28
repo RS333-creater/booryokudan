@@ -12,7 +12,7 @@
     <header>
         <div class="nav-container">
             <div class="logo">
-                <img src="/css/img/logo 1.png" alt="">
+            <a href="/"><img src="/css/img/logo 1.png" alt=""></a>
             </div>
             <nav>
                 <ul>
