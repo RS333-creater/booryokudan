@@ -43,6 +43,7 @@
 
         <aside class="sidebar">
             <div class="travel-destinations">
+            <div class="scrollable-container">
                 <!-- 元のカード内容を維持 -->
                 <div class="destination-card" data-lat="46.8182" data-lng="8.2275">
                     <img src="/css/img/swis.jpg" alt="Switzerland">
@@ -64,6 +65,7 @@
                     <img src="/css/img/uk.jpg" alt="United Kingdom">
                     <p>United Kingdom <span class="rating">4.2</span></p>
                 </div>
+            </div>
             </div>
         </aside>
 

@@ -30,7 +30,7 @@
                 <button class="nav-btn">
                     <img src="/css/img/setting-1-svgrepo-com.svg" alt="SETTINGS"></button>
                 <div class="user-profile">
-                    <img src="/css/img/friend-svgrepo-com.svg" alt="User01">
+                    <img src="/css/img/bobby.png" alt="User01">
                 </div>
             </div>
         </div>

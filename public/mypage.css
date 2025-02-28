@@ -77,13 +77,13 @@ nav ul li a {
 
 .nav-btn:hover,
 .user-profile:hover {
-    background-color: red;
+    background-color: #1f72bc;
 }
 
 .user-profile img {
     border-radius: 50%;
     margin-right: 10px;
-    background: #434548;
+    background: #cacbcc;
     width: 100%;
 }
 
@@ -347,6 +347,7 @@ input[type="text"] {
     border-bottom: 1px solid #eee;
     padding-bottom: 5px;
 }
+
 
 .favorite-item {
     display: flex;
