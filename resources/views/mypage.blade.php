@@ -13,15 +13,15 @@
     <header>
         <div class="nav-container">
             <div class="logo">
-            <a href="/"><img src="/css/img/logo 1.png" alt=""></a>
+            <a href="{{ route('mypage') }}"><img src="/css/img/logo 1.png" alt=""></a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#">Spending</a></li>
-                    <li><a href="#">Messages</a></li>
+                    <li><a href="{{ route('mypage') }}">Home</a></li>
+                    <li><a href="{{ route('calendar') }}">Calendar</a></li>
+                    <li><a href="{{ route('booking') }}">Bookings</a></li>
+                    <li><a href="{{ route('spending') }}">Spending</a></li>
+                    <li><a href="{{ route('messages') }}">Messages</a></li>
                 </ul>
             </nav>
             <div class="btnarea">

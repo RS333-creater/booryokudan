@@ -8,6 +8,7 @@ use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\mapController;
 use App\Http\Controllers\LocentryController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\MyPageController;
 
 Route::get('/', [TestController::class, 'getTest'])->name('home'); // ホームページ
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login'); // ログインフォーム
@@ -25,9 +26,16 @@ Route::get('locentryform',[LocentryController::class,'create'])->name('form');
 Route::post('locentryform/store',[LocentryController::class,'store'])->name('store');
 Route::post('map/reserve/checkout/submit', [MapController::class, 'submit'])->name('submit');
 
-Route::get('/location', function () {return view('location');})->name('location');
+Route::get('/location',[MapController::class,'index'])->name("map");
 Route::get('/discover', function () {return view('discover');})->name('discover');
 Route::get('/bookings', function () {return view('bookings');})->name('bookings');
 Route::get('/activities', function () {return view('activities');})->name('activities');
 Route::get('/about', function () {return view('about');})->name('about');
 Route::get('/contact', function () {return view('contact');})->name('contact');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/mypage/calendar', [MyPageController::class, 'calendar'])->name('calendar');
+    Route::get('/mypage/booking', [MyPageController::class, 'booking'])->name('booking');
+    Route::get('/mypage/spending', [MyPageController::class, 'spending'])->name('spending');
+    Route::get('/mypage/messages', [MyPageController::class, 'messages'])->name('messages');
+});

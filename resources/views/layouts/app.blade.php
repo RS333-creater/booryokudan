@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BonVoyage - @yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/styleindex.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css') }}">
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="{{ route('location') }}">Location</a></li>
+                        <li><a href="{{ route('map') }}">Location</a></li>
                         <li><a href="{{ route('discover') }}">Discover</a></li>
                         <li><a href="{{ route('bookings') }}">Bookings</a></li>
                         <li><a href="{{ route('activities') }}">Activities</a></li>

@@ -268,3 +268,14 @@ nav ul li a {
         font-size: 32px;
     }
 }
+
+.custom-card {
+    border: 2px solid black; /* 黒い枠線 */
+    text-align: center; /* 文字を中央揃え */
+    margin-bottom: 20px; /* カード間のスペース */
+}
+
+.card-img-top {
+    height: 200px; /* 画像サイズを統一 */
+    object-fit: cover;
+}

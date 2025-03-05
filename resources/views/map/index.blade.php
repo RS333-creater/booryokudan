@@ -20,12 +20,12 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="{{ route('location') }}">Location</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#">Activities</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>
+                        <li><a href="{{ route('map') }}">Location</a></li>
+                        <li><a href="{{ route('discover') }}">Discover</a></li>
+                        <li><a href="{{ route('bookings') }}">Bookings</a></li>
+                        <li><a href="{{ route('activities') }}">Activities</a></li>
+                        <li><a href="{{ route('about') }}">About us</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </nav>
             <div class="btnarea">

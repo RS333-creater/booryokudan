@@ -15,7 +15,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="{{ route('location') }}">Location</a></li>
+                        <li><a href="{{ route('map') }}">Location</a></li>
                         <li><a href="{{ route('discover') }}">Discover</a></li>
                         <li><a href="{{ route('bookings') }}">Bookings</a></li>
                         <li><a href="{{ route('activities') }}">Activities</a></li>
